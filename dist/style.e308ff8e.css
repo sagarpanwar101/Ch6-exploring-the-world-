@@ -1,0 +1,137 @@
+* {
+  padding :0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#root {
+  height: 100%;
+  min-width: 1240px;
+}
+.header {
+  display: flex;
+  justify-content: space-between ;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 80px;
+  background: #fff;
+}
+
+.nav-items > ul{
+  padding-top : 20px;
+  min-width : 400px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly ;
+  font-size: 20px;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+}
+
+.logo {
+  width: 80px;
+  padding: 5px;
+}
+
+.card{
+  width: 250px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+}
+
+.card > img {
+  width: 100%;
+  height: 275px;
+}
+
+.card-title {
+  font-size: 17px;
+  font-weight: 500;
+  word-break: break-word;
+}
+
+.card-tags {
+  color: #686b78;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.card-rating {
+  background-color: #db7c38;
+  color: #fff;
+}
+
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #fff;
+  color:#DF411E;
+  border-radius: 7px;
+} 
+.filtercontainer {
+  margin-left: 40px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  max-width: 450px;
+  height: 100px;
+}
+
+.search-container input {
+  padding: 5px;
+  border-radius: 14px;
+  border: 0 inset #e0e0e0;
+  background: #eee;
+  flex-basis: 350px;
+  height: 30px;
+}
+
+button.searchBtn {
+  padding: 8px;
+  border-radius: 11px;
+  border: 0 inset;
+  background: #DF411E;
+  color: #fff;
+  flex-basis: 60px;
+}
+.footer {
+  background: #DF411E;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.shimmercard{
+  background-color: #e0e0e0;
+  padding: 25px;
+  height: 350px;
+  width: 150px;
+  margin:15px;
+}
+.loginBtn {
+padding: 8px;
+cursor: pointer;
+border-radius: 12px;
+color: #db7c38;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
